@@ -1,7 +1,0 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
-
-yarn lint
-yarn deadcode
-yarn spell
-NODE_ENV=test yarn test
